@@ -1,0 +1,63 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #121111;
+	text-align: center;
+	color: white;
+	font-family: 'Arvo', serif;
+}
+
+.game {
+	width: 900px;
+	margin: 5% auto;
+	background: black;
+	text-align: left;
+}
+
+.col {
+	width: 29%;
+	padding: 2%;
+	float: left;
+}
+
+.col > div {
+	margin: 1em 0;
+}
+
+/* clear fix */
+.game:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+button {
+	font-size: 100%;
+	border-radius: 0.25em;
+	padding: 0.5em;
+	background: #a99;
+	border: solid 1px white;
+	cursor: pointer;
+	font-family: Arial;
+	font-weight: bold;
+	outline: none;
+}
+button:hover {
+	background: #baa;
+}
+button:active {
+	background: #faa;
+}
+
+footer {
+	margin-top: 10%;
+	font-size: 80%;
+}
+footer a {
+	color: white;
+}
+
+.logo {
+	width: 12em;
+	vertical-align: middle;
+}

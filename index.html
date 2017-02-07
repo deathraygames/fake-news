@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fake News Incremental Game - One Hour Game Jam 93</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/simple.css" />
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+
+<h1>Fake News</h1>
+<div class="subtitle">a satirical incremental game of sadness (v1.1)</div>
+<div class="game">
+	<div class="col col3">
+		<div>Writers: <span id="writers"></span></div> 
+		<div class="progress">Article progress: <span id="articleProgress"></span></div>
+		<button type="button" class="write">Write Alt-Fact Article</button>
+		<div>Articles: <span id="articles"></span></div> 
+		<div>Readers: <span id="readers"></span></div>
+		<div>Advertising: +$1/reader/second</div>
+	</div>
+
+	<div class="col col2">
+		<div>Lobbyists: <span id="lobbyists"></span></div> 
+		<div class="progress">Lobbying progress: <span id="lobbyProgress"></span></div>
+		<button type="button" class="lobby">Lobby Corrupt Politician</button>
+		<div>Politicians owned: <span id="politicians"></span></div>
+		<div>Credibility: <span id="credibility"></span></div>
+		<button type="button" class="discredit">Discredit other news sources</button>
+		<div class="tip">(Trade a politician for readers based on credibility)</div>
+
+	</div>
+	<div class="col col1">
+		<div>Money: $<span id="money"></span></div>
+		<div>Writer Cost: $<span id="writerCost"></span></div>
+		<button type="button" class="hireWriter">Hire Writer</button>
+		<div>Lobbyist Cost: $<span id="lobbyistCost"></span></div>
+		<button type="button" class="hireLobbyist">Hire Lobbyist</button>
+		<button type="button" class="donate">Donate to SuperPAC</button>
+		<div class="tip">(Each $1000 donation gets 1 politician)</div>
+	</div>
+</div>
+
+<footer>
+	Made by <a href="http://deathraygames.com/">Deathray Games</a> for
+	<img src="images/1_hour_game_jam_logo.png" class="logo" />
+	<br />with the theme of "Complete and utter nonsense"
+	(<a href="1hgj-93/">Original version</a>)
+</footer>
+
+<div class="scripts">
+	<script src="scripts/libs/jquery-3.1.1.min.js"></script>
+	<script src="scripts/rocketboots/core.js"></script>
+	<script src="scripts/1hgj-93.js"></script>
+	<script src="../../js/ga.js"></script>
+</div>
+
+</body>
+</html>

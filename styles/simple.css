@@ -1,0 +1,96 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #242222;
+	text-align: center;
+	color: white;
+	font-family: 'Arvo', serif;
+}
+
+h1 {
+	margin: 2% 0 0 0;
+}
+.subtitle {
+	color: #121111;
+}
+
+.game {
+	width: 80%;
+	margin: 2% auto;
+	background: #121111;
+	text-align: left;
+}
+
+.col {
+	width: 27%;
+	min-width: 15em;
+	padding: 3%;
+	float: left;
+}
+
+.col > div {
+	margin: 1em 0;
+}
+
+/* clear fix */
+.game:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.currency-val {
+	font-size: 140%;
+	display: inline-block;
+	margin-left: 1em;
+}
+.currency-out-of {
+	display: none;
+}
+.currency-max {
+	display: none;
+}
+	.progress .currency-out-of {
+		display: inline;
+	}
+	.progress .currency-max {
+		display: inline;
+	}
+
+.tip {
+	font-size: 90%;
+	opacity: 0.6;
+}
+
+button {
+	display: block;
+	font-size: 100%;
+	border-radius: 0.25em;
+	padding: 0.5em;
+	margin: 0.5em 0 1em 0;
+	background: #a99;
+	border: solid 1px white;
+	cursor: pointer;
+	font-family: Arial;
+	font-weight: bold;
+	outline: none;
+}
+button:hover {
+	background: #baa;
+}
+button:active {
+	background: #faa;
+}
+
+footer {
+	margin-top: 5%;
+	font-size: 80%;
+}
+footer a {
+	color: white;
+}
+
+.logo {
+	width: 12em;
+	vertical-align: middle;
+}
